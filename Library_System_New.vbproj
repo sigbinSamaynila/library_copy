@@ -1,0 +1,229 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <StartupObject>Library_System_New.My.MyApplication</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+    <ImportedNamespaces>Library_System_New.Library_System_New.booksDataSet7TableAdapters=False,System.Data=False,System.Drawing=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,Library_System_New=True</ImportedNamespaces>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="Library_System_New.Library_System_New.booksDataSet7TableAdapters" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="booksDataSet.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet1.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet10.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet11.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet12.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet13.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet14.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet15.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet16.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet17.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet18.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet2.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet3.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet4.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet5.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet6.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet7.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet8.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="booksDataSet9.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>booksDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="published.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>published.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="booksDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet10.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet11.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet12.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet13.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet14.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet15.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet16.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet17.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet18.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet2.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet3.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet4.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet5.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet6.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet7.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet8.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="booksDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>booksDataSet9.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="published.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>published.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

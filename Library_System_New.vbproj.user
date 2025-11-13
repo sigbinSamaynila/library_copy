@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="books.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="borrow_book.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="edit_book.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="history.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LibraryAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoadingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="log.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModernButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="return_book.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="return_books.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RoundPictureBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RoundTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="superadmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
